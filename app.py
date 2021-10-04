@@ -1,10 +1,3 @@
-# docker-sample
-essai dockerfile
-
-apt update
-apt -y install python3 python3-pip vim
-history
-
 # app.py
 import os
 from flask import Flask
@@ -17,8 +10,3 @@ def hello():
     return 'I am good, how about you?'
 if __name__ == "__main__":
     app.run()
-
-[200~[13:33] MEFTAH Herve
-FLASK_APP=/opt/app.py flask run --host=0.0.0.0
-
-
